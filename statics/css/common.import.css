@@ -1,0 +1,128 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,
+fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+html,body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 1100px;
+    color: #000;
+    background-color: #f3f4f4;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", "FreeSans, Arimo", "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+/*头部*/
+.top .topbar{
+    width: 100%;
+    padding-top: 20px;
+    background: url(img/slices/banner.png) no-repeat;
+}
+.top .cell{
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+}
+.top .topbar .f_logo{
+    padding-top: 20px;
+}
+.top .topbar .f_logo i.logo{
+    display: block;
+    width: 351px;
+    height: 84px;
+    background: url(img/slices/logo.png) no-repeat;
+}
+.top .topbar .f_logo p{
+    color: #0068b7;
+    font-size: 14px;
+    margin-left: 100px;
+    line-height: 42px;
+}
+.top .topbar .r_search{
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.top .topbar .r_search i{
+    display: block;
+    width: 383px;
+    height: 27px;
+    background: url(img/slices/wenzi.png) no-repeat;
+}
+.top .topbar .r_search .search{
+    position: relative;
+}
+.top .topbar .r_search .search input{
+    border: 0px;
+    float: right;
+    margin-top: 24px;
+    font-size: 14px;
+    width: 188px;
+    padding: 4px 31px 4px 4px;
+}
+.top .topbar .r_search .search i.s_icon{
+    width: 19px;
+    height: 18px;
+    display: block;
+    background: url(img/slices/s_icon.png) no-repeat;
+    position: absolute;
+    top: 28px;
+    right: 6px;
+    cursor: pointer;
+}
+.top .titlebar{
+    background-color: #1482db;
+}
+.top .titlebar ul.title_lists{
+    overflow: auto;
+}
+.top .titlebar ul.title_lists li{
+    float: left;
+    line-height: 38px;
+    width: 162px;
+}
+.top .titlebar ul.title_lists li a{
+    color: #fff;
+    padding: 0px 50px;
+    border-right: 1px solid #4d9be7;
+    border-left: 1px solid #1e75c9;
+    font-size: 15px;
+}
+.top .titlebar ul.title_lists li:last-child a{
+    border-right: 0px;
+}
+.top .titlebar ul.title_lists li:first-child a{
+    border-left: 0px;
+    padding: 0px 65px;
+}
+.top .titlebar ul.title_lists li.visited{
+    position: relative;
+}
+.top .titlebar ul.title_lists li.visited i{
+    background: url(img/slices/icon.png) no-repeat;
+    width: 132px;
+    height: 32px;
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 15px;
+    font-style: normal;
+    color: #1482db;
+    text-align: center;
+    cursor: pointer;
+}
+/*尾部*/
+.foot{
+    background-color: #0057a8;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.foot p{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    line-height: 24px;
+}

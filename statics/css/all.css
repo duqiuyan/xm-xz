@@ -1,0 +1,15 @@
+﻿/*样式重置*/
+@import url("normalize.import.css");
+/*全局样式-用于各种页面*/
+@import url("common.import.css");
+/*首页*/
+@import url("index.import.css");
+/*机构概括*/
+@import url("summary.import.css");
+/*工作动态*/
+@import url("job.import.css");
+/*政策文件*/
+@import url("policy.import.css");
+/*经验交流*/
+@import url("experience.import.css");
+
